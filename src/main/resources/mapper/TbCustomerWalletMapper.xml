@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.TbCustomerWalletMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.TbCustomerWallet">
+    <!--@mbg.generated-->
+    <!--@Table tb_customer_wallet-->
+    <id column="c_pk_id" jdbcType="VARCHAR" property="cPkId" />
+    <result column="c_user_id" jdbcType="VARCHAR" property="cUserId" />
+    <result column="n_balance" jdbcType="INTEGER" property="nBalance" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    c_pk_id, c_user_id, n_balance
+  </sql>
+</mapper>
